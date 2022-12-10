@@ -1,0 +1,16 @@
+.create-coupon-main {
+    display: grid;
+    grid-template-columns: .5fr 1fr;
+}
+
+.create-coupon-left-form {
+    background-color: gray;
+    padding-bottom: 5vh;
+}
+
+.main-right-side {
+    border-style: solid;
+    display: grid;
+    justify-items: center;
+    align-content: center;
+}

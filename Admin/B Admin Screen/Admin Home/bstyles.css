@@ -1,0 +1,56 @@
+/* Beginning of Body */
+
+
+.main-body {
+    display: grid;
+    grid-template-columns: .8fr .2fr;
+}
+
+h1 {
+    margin: 0px;
+}
+
+.header-section {
+    margin-top: 2vh;
+    text-align: center;
+}
+
+.header-h1 {
+    font-size: 2em;
+}
+
+.main-grid {
+    margin-top: 2vh;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1vw;
+}
+
+.main-content {
+    padding-top: 1vh;
+    color: white;
+    /* border-style: solid; */
+    background-image: linear-gradient( rgb(61, 61, 61), rgb(74, 74, 74));
+    height: 10vh;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.6);
+}
+
+.secondary-content {
+    /* width: 90%; */
+    /* border-style: solid; */
+    margin-top: 2.5vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.coupon-section {
+    margin-top: 2vh;
+    text-align: center;
+    margin-bottom: 5vh;
+}
+
+.coupon-section .main-content {
+    height: 25vh;
+}
